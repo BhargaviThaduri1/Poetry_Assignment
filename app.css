@@ -1,0 +1,223 @@
+body{
+    height:100%;
+    list-style: none;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(243, 243, 239);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(83, 115, 157);
+    padding:1vw
+}
+.right-nav{
+    display: flex;
+    gap:5vw
+
+}
+.left-nav{
+    color:rgb(36, 36, 36);
+    font-weight: 600;
+    margin-left:20vw;
+    font-size:3vw;
+    
+}
+.right-nav{
+    color:rgb(36, 36, 36);
+}
+
+.head{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(83, 115, 157);
+    color:white;
+}
+.div-left{
+    font-size:3vw;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1vw;
+
+}
+.head div{
+   width: 50%;
+}
+.head .div-left{
+    text-align: center;
+}
+
+input[type="text"]{
+    height:2vw;
+    width: 25vw;
+    border:1px solid black;
+    font-size:1vw;
+    padding:1vw;
+    margin-bottom: 1vw;
+    border-radius: 1vw;
+
+
+}
+.subscribe{
+    background-color: rgb(24, 52, 89);
+    padding:1vw;
+    color:white;
+    margin-left:1vw;
+    border-radius: 5px;
+    margin-bottom: 1vw;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:10vw;
+    
+}
+.sec1 .description h3{
+    color:rgb(37, 63, 96);
+    font-size:3vw;
+
+}
+.description, .ranking{
+    max-width: 30vw;
+}
+.description{
+    margin-top:1vw
+}
+.ranking{
+    display: flex;
+    flex-direction: column;
+    gap:3vw;
+    margin-top:3vw;
+}
+.rankbox{
+    display: flex;
+    gap:5%
+}
+.rankbox .number{
+    width: 4vw;
+    height:4vw;
+    border:1px solid black;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    background-color: white;
+    border-radius: 3px;
+    font-size:2vw;
+    font-weight: bolder;
+    color:rgb(8, 76, 166);
+}
+.rank-desc b{
+    font-weight: 500;
+    color:rgb(0, 30, 72);
+
+}
+.rank-desc span{
+    font-style: italic;
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+footer{
+    background-color:rgb(225, 225, 225); ;
+
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:5vw;
+    background-color:rgb(225, 225, 225); ;
+    margin-bottom: 0;;
+}
+.f1 h4{
+    font-size:2vw;
+    font-weight: 600;
+    color:rgb(36, 36, 36);
+    
+}
+.images{
+    margin:3vw;
+    display: flex;
+    gap:1vw;
+}
+img{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 5px;
+}
+.images b{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size:1vw;
+    margin-bottom:10px;
+}
+
+@media only screen and (max-width:700px) {
+    .head{
+         display: flex;
+         overflow: hidden;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         gap:2vw;
+    }
+    .div-right{
+        margin-top:0;
+        
+    }
+    .images{
+        flex-direction: column;
+    }
+    .sec1{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        gap:2vw;
+    }
+    .description, .ranking{
+        max-width: 80%;
+    }
+    img{
+        width: 50vw;
+        height:50vw;
+        margin-top:6vw ;
+
+    }
+    .images b{
+        font-size:3vw;
+    }
+    .images span{
+        font-size:4vw;
+
+    }
+    .f1 h4{
+        font-size:4vw;
+        margin:0;
+    }
+    input[type="text"]{
+        font-size:3vw;
+        height:3vw;
+        margin-left:1vw;
+    }
+    .subscribe{
+        padding:2vw;
+        margin-left:0;
+        margin-top:2vw;
+    }
+    .rankbox .number{
+        width: 10vw;
+        height: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+} 
